@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import seaborn as sns
-import matplotlib.pyplot as plt
+import ploly as plt
 
 st.set_page_config(page_title="날씨와 대중교통 이용량 분석", layout="wide")
 st.title("기상상태와 대중교통 이용량 간의 상관관계 분석")
