@@ -9,7 +9,7 @@ st.title("기상상태와 대중교통 이용량 간의 상관관계 분석")
 @st.cache_data
 def load_data():
     df = pd.read_csv(
-        "data/한국교통안전공단_대중교통 기상상태별 이용인원_20221231.csv",
+        "한국교통안전공단_대중교통 기상상태별 이용인원_20221231.csv",
         encoding="cp949"
     )
     return df
